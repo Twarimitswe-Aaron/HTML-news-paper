@@ -1,3 +1,355 @@
-*{
-    margin:0 20px;
+/* Reset margin on all elements */
+* {
+    margin: 0;
+    width: 93vw;
 }
+@import url('https://db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+@import url("https://your-font-hosting.com/filosofia.css");
+
+
+
+
+body {
+    width: 100%;
+    overflow-x: scroll; 
+    margin: 0 2.5em 0 2.5em; 
+    font-family: 'Gothic', sans-serif;
+}
+
+.page1{
+    display: block;
+}
+.page1 .title{
+    display: block;
+    height: 2.6em;
+    
+    
+}
+.page1 .title > h1 {
+    font-family: "Old English Text MT", serif;
+    font-size: 10em;
+    margin: 1em auto .6em ;
+    letter-spacing: 1px;
+    font-weight: 200;
+    line-height: .25em;
+    text-align: center;
+    justify-content: center;
+}
+.page1 .title .date{
+    display: flex;
+    justify-content: space-around;
+}
+.page1 .title .date p{
+    font-variant: small-caps;
+    font-size: 1em;
+    display: block;
+    width: 33%;
+}
+
+
+.page1 .title .date .p3{
+    position: relative;
+    margin-right: 0em;
+    display: block;
+    text-align: right;
+    float: right;
+}
+.page1 .title .date .p2{
+    position: relative;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin: 0 auto 0;
+
+}
+.page1 .title .date .p1{
+    margin-left: 0em;
+    display: block;
+    text-align: left;
+    float: left;
+}
+
+.page1 .leftView{
+    display: block;
+    
+}
+.page1 .leftView .upper{
+    display: block;
+   
+}
+.page1 .leftView .upper > img{
+width: 65%;
+height: 42em;
+margin-top: 2em;
+position:relative;
+top: 7em;
+left: 0;
+
+}
+
+
+.hr{
+    font-weight: bolder;
+    margin:.3em 0;
+    background-color: black;
+    height: .1em;
+    border: none;
+}
+hr.bold{
+    border: none;
+    height: .12em;
+    background-color: black;
+}
+
+.page1 .leftView .upper h3{
+    margin-top: 8em;
+    text-align: center;
+    width: 65%;
+
+}
+.page1 .leftView .upper h1{
+    width: 65%;
+    font-size: 6em;
+    font-family: "filosofia-regular", serif;
+    display: block;
+    text-align: center;
+
+}
+
+.page1 .leftView .upper p{
+    text-align: center;
+    width: 65%;
+    font-size: 1.5em;
+
+}
+.page1 .leftView .leftLowerPage{
+    display: flex;
+    width: 65%;
+    
+}
+.page1 .leftView  .leftLowerPage .div{
+    text-align: justify;
+    margin:.7em .7em 0 .7em;
+    width: 30%;
+    display: flex;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+}
+
+
+.lowerViewFirstPage{
+   display: flex;
+   width: 30%;
+}
+.lowerViewFirstPage .rightView{
+    display: inline-block;
+    position: relative;
+    left: -26.5em;
+    top: 9em;
+}
+.lowerViewFirstPage .rightView .higher p,
+.lowerViewFirstPage .rightView .lower p{
+    width: 35%;
+    margin: 2em 0;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+}
+
+.lowerViewFirstPage .rightView .higher h3,
+.lowerViewFirstPage .rightView .lower h3{
+    font-size: 1em;
+    margin: 2em 0;
+}
+
+.lowerViewFirstPage .rightView .higher .p,
+.lowerViewFirstPage .rightView .lower .p{
+    text-align: justify;
+    margin: 2em 0;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+}
+
+.lowerViewFirstPage .rightView .higher h2,
+.lowerViewFirstPage .rightView .lower h2{
+    font-size: 3em;
+    display: block;
+    width: 30%;
+
+}
+.lowerViewFirstPage .rightView .lower img{
+    width: 35%;
+    
+}
+.hrAtFirstPage{
+    margin: 3.9em -1em 0 1em;
+}
+.frontPage{
+    display: block;
+    float: right;
+    position: relative;
+    right: 0;
+    top: -1em;
+    right: -20.6em;
+
+}
+.horizontaPage1{
+    position: relative;
+    top: 4em;
+    display: none;
+    border: 1px solid black;
+}
+.vertical-line {
+    border-left: 2px solid black;
+    height: 380vh;
+    position: absolute;
+    left: 65%;
+    top: 21.6em;
+  }
+  .blockPage{
+    display: flex;
+    width: 65%;
+    
+  }
+
+  .leftView .blockPage .div p{
+    width: 92%;
+    text-align: justify;
+    display: block;
+  }
+  .page2{
+    display: flex;
+  }
+  .page2 .rightView{
+    display: inline-block;
+    position: relative;
+    left: -26.5em;
+    top: .1em;
+    width: 30%;
+  }
+  .page2 .rightView .lower p{
+    width: 30%;
+    text-align: justify;
+    margin: 2em 0;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+    
+  }
+  .page2 .rightView .lower h2{
+    font-size: 3em;
+    display: block;
+    width: 30%;
+  }
+  .page2 .rightView .lower h3,
+  .page2 .leftView h3{
+    font-size: 1em;
+    margin: 2em 0;
+  }
+  .page2 .leftView  .blockPage .div{
+    text-align: justify;
+    margin:.7em 0em 0 .2em;
+    width: 100%;
+    display: flex;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+  }
+
+  .page2 .leftView  p{
+    text-align: justify;
+    margin: .9em 0;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+  }
+  .page2 .leftView h1{
+    width: 65%;
+    font-size: 6em;
+    font-family: "filosofia-regular", serif;
+    display: block;
+    text-align: left;
+  }
+
+  .page2Lower{
+    display: block;
+  }
+
+  .page2Lowest{
+    display: flex;
+    
+
+  }
+  .page2Lowest .left{
+    
+    display: 
+
+  }
+  .page2Lowest .left .header{
+    display: block;
+    width: 50%;
+  }
+  .page2Lowest .left .body{
+    display: flex;
+    width: 50%;
+  }
+  .page2Lowest .left .body .left p,
+  .page2Lowest .left .body .right p {
+    width: 90%;
+    display:flex ;
+    text-align: justify;
+    margin: .9em 0;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+  }
+
+  .page2Lowest .right1{
+    display: flex;
+    width: 50%;
+    position: relative;
+    top: 1em;
+    right: 40.6em;
+  }
+
+.page2Lowest .right1 .side1 p,
+.page2Lowest .right1 .side2 p
+{
+    width: 90%;
+    display: flex;
+    margin: 1em 4em 1em 2em;
+    text-align: justify;
+    margin: .9em 0;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+}
+.page2Lowest .left .header h3 {
+    font-size: 1em;
+    margin: 2em 0;
+
+}
+.page2Lowest .left .header h1{
+    width: 85%;
+    font-size: 4em;
+    font-family: "filosofia-regular", serif;
+    display: block;
+    text-align: left;
+
+}
+  .gospelFestival .upper .image img{
+    
+  }
+ 
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
