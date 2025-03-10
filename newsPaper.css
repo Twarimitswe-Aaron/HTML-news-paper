@@ -277,11 +277,7 @@ hr.bold{
     
 
   }
-  .page2Lowest .left{
-    
-    display: 
 
-  }
   .page2Lowest .left .header{
     display: block;
     width: 50%;
@@ -299,6 +295,7 @@ hr.bold{
     line-height: 1.5em;
     letter-spacing: .09em;
   }
+
 
   .page2Lowest .right1{
     display: flex;
@@ -324,6 +321,12 @@ hr.bold{
     margin: 2em 0;
 
 }
+.page2Lowest .left .header p{
+    text-align: justify;
+    margin: .9em 0;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+}
 .page2Lowest .left .header h1{
     width: 85%;
     font-size: 4em;
@@ -333,8 +336,71 @@ hr.bold{
 
 }
   .gospelFestival .upper .image img{
-    
+    height: 80vh;
   }
+  .gospelFestival .upper .title{
+    justify-content: center;
+    text-align: center;
+  }
+  .gospelFestival .upper .title h1{
+    width: 86%;
+    font-size: 6em;
+    font-family: "filosofia-regular", serif;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 1em 0 1em;
+    
+
+  }
+  .gospelFestival .upper .title h3{
+    position: relative;
+    margin-right: 0em;
+    display: block;
+    text-align:center;
+    margin: 2em 0 1em 0;
+
+  }
+  .gospelFestival .upper .title p{
+    text-align: center;
+    margin: .9em 0;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+  }
+  .gospelFestival .lower{
+    display: flex;
+  }
+  .gospelFestival .lower .div{
+    width: 100%;
+  }
+  .gospelFestival .lower .div p{
+    width: 93%;
+    text-align: justify;
+    display: flex;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+    margin-bottom: 2em;
+  }
+
+ .allNewPlays .upper{
+    display: flex;
+    width: 100%;
+  }
+  .allNewPlays .upper .left,.upper .middle, .upper .right{
+    width: 90%;
+  }
+  .allNewPlays .upper .left .lower p,
+  .allNewPlays .upper .right .lower p{
+  width: 20%;
+  }
+  .allNewPlays .upper .left .upper h1 ,
+  .allNewPlays .upper .right .upper h1 {
+  width: 20%;
+  }
+  .allNewPlays .upper .middle {
+    width: 60%;
+  }
+
  
 
 
