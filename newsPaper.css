@@ -225,10 +225,10 @@ hr.bold{
     position: relative;
     left: -26.5em;
     top: .1em;
-    width: 30%;
+    width: 40%;
   }
   .page2 .rightView .lower p{
-    width: 30%;
+    width: 35%;
     text-align: justify;
     margin: 2em 0;
     line-height: 1.5em;
@@ -308,17 +308,22 @@ hr.bold{
 .page2Lowest .right1 .side1 p,
 .page2Lowest .right1 .side2 p
 {
-    width: 90%;
+    width: 96%;
     display: flex;
     margin: 1em 4em 1em 2em;
     text-align: justify;
-    margin: .9em 0;
+    margin: .9em 0 2em 3em;
     line-height: 1.5em;
+    margin-right: 6em;
     letter-spacing: .09em;
+}
+.page2Lowest .right1 .side1 p{
+  position: relative;
+  left: -2em;
 }
 .page2Lowest .left .header h3 {
     font-size: 1em;
-    margin: 2em 0;
+    margin: 2em 0 ;
 
 }
 .page2Lowest .left .header p{
@@ -386,8 +391,9 @@ hr.bold{
     display: flex;
     width: 100%;
   }
-  .allNewPlays .upper .left,.upper .middle, .upper .right{
-    width: 90%;
+  .allNewPlays .upper .left,
+  .upper .middle .upper .right{
+    width: 20%;
   }
   .allNewPlays .upper .left .lower p,
   .allNewPlays .upper .right .lower p{
@@ -399,6 +405,33 @@ hr.bold{
   }
   .allNewPlays .upper .middle {
     width: 60%;
+    display: block;
+  }
+  .allNewPlays .upper .middle .title{
+    width: 100%;
+  }
+  .allNewPlays .upper .middle .body{
+    width: 100%;
+    display: flex;
+  }
+  .allNewPlays .upper .middle .body .left,
+  .allNewPlays .upper .middle .body .right{ 
+    width: 100%;
+    display: block;
+  }
+  .allNewPlays .upper .right  .upper h3,
+  .allNewPlays .upper .right  .upper h1{
+    position: relative;
+    left: -12em;
+  }
+  
+  .allNewPlays .upper .right  .upper p{
+    position: relative;
+    left: -20em;
+  }
+  .allNewPlays .upper .middle .body .left p,
+  .allNewPlays .upper .middle .body .right p{
+    width: 100%;
   }
 
  
