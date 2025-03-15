@@ -12,7 +12,7 @@
 
 body {
     width: 100%;
-    overflow-x: scroll; 
+    overflow-x: hidden; 
     margin: 0 2.5em 0 2.5em; 
     font-family: 'Gothic', sans-serif;
 }
@@ -386,6 +386,9 @@ hr.bold{
     letter-spacing: .09em;
     margin-bottom: 2em;
   }
+.allNewPlays{
+  width: 100%;
+}
 
  .allNewPlays .upper{
     display: flex;
@@ -393,46 +396,192 @@ hr.bold{
   }
   .allNewPlays .upper .left,
   .upper .middle .upper .right{
-    width: 20%;
+    width: 32%;
+  }
+
+  .allNewPlays .upper .uppe h1{
+    margin: .4em 0 .5em 0 ;
+    margin-bottom: .5em;
+  }
+
+  .allNewPlays .upper .lower  p{
+     width: 100%;
+     margin-top: 1em;
+     line-height: 1.5em;
+    letter-spacing: .09em;
+    text-align: justify;
+    display: block;
+     
+  }
+  .allNewPlays .upper .uppe p{
+    font-size: 1em;
   }
   .allNewPlays .upper .left .lower p,
   .allNewPlays .upper .right .lower p{
-  width: 20%;
+  width: 24%;
+
   }
-  .allNewPlays .upper .left .upper h1 ,
-  .allNewPlays .upper .right .upper h1 {
-  width: 20%;
+  .allNewPlays .upper .left .lower p{
+    float: left;
+  }
+  .allNewPlays .upper .right .lower p{
+    float: right;
+  }
+  .allNewPlays .upper .left .uppe h1 ,
+  .allNewPlays .upper .right .uppe h1 {
+  width: 24%;
   }
   .allNewPlays .upper .middle {
-    width: 60%;
+    width: 56%;
     display: block;
   }
-  .allNewPlays .upper .middle .title{
+  .allNewPlays .upper .middle .tite{
     width: 100%;
+    display: block;
+  } 
+   .allNewPlays .upper .middle .tite h1{
+    font-size: 6em;
+    width: 100%;
+    position: relative;
+    left: -.5em;
+    text-align: center;
+    
+
   }
-  .allNewPlays .upper .middle .body{
-    width: 100%;
-    display: flex;
+  .allNewPlays .upper .middle .tite  .para{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: -.9em;
+    display: block;
+    width: inherit;
+    margin: 1em 0 ;
+   
+
   }
   .allNewPlays .upper .middle .body .left,
-  .allNewPlays .upper .middle .body .right{ 
+  .allNewPlays .upper .middle .body .right {
+    width: 54%;
+  }
+  .allNewPlays .upper .middle .body{
+    display: flex;
+    width: 100%;
+    
+  }
+  .allNewPlays .upper .middle .body .left p{
     width: 100%;
     display: block;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+    text-align: justify;
+    margin-left: -4em;
   }
-  .allNewPlays .upper .right  .upper h3,
-  .allNewPlays .upper .right  .upper h1{
-    position: relative;
-    left: -12em;
+  .allNewPlays .upper .middle .body .right p{
+    margin-right: 1em;
+    width: 100%;
+    display: block;
+    line-height: 1.5em;
+    letter-spacing: .09em;
+    text-align: justify;
+    margin-left: -2em;
+    
   }
   
-  .allNewPlays .upper .right  .upper p{
+  
+  .allNewPlays .upper .right  .uppe h1{
     position: relative;
-    left: -20em;
+    left: 0em;
   }
-  .allNewPlays .upper .middle .body .left p,
-  .allNewPlays .upper .middle .body .right p{
-    width: 100%;
+  
+  .allNewPlays .upper .right  .uppe p{
+    position: relative;
+    left: 0em;
   }
+  .allNewPlays .upper .right  .lower p{
+    float: left;
+    display: block;
+  }
+  .vertical-line1{
+    border: 1px solid black;
+  }
+  .vertical-line1.ab{
+    position: relative;
+    right: 1em;
+  }
+  .vertical-line1.a1{
+    position: relative;
+    right: 5em;
+  }
+  hr{
+    border: 1px solid black;
+  }
+
+.allNewPlays .lower {
+  display: flex;
+}
+.allNewPlays .lower .leftImage{
+  width: 50%;
+}
+.allNewPlays .lower .leftImage img{
+  display: block;
+  width: 38em;
+  margin-top: 1em;
+  height: 40em;
+  
+}
+.allNewPlays .lower .title{
+  width: 100%;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+}
+.allNewPlays .lower .title h1,
+.allNewPlays .lower .title h4{
+  width: 50%;
+  
+}
+.allNewPlays .lower .title h1{
+  font-size:2.6em;
+  width: 30%;
+}
+.allNewPlays .lower .title h4{
+font-size: .81em;
+position: relative;
+
+display: block;
+margin-top: 1em;
+}
+.allNewPlays .lower .title p{
+  display: block;
+  position: relative;
+ margin: 1em 0; 
+}
+
+.allNewPlays .lower .right{
+  margin-left: 1em;
+}
+.allNewPlays .lower .body{
+  display: flex;
+  width: 50%;
+}
+.allNewPlays .lower .body .right,
+.allNewPlays .lower .body .left{
+  width:50% ;
+  display: block;
+}
+.allNewPlays .lower .body .right p,
+.allNewPlays .lower .body .left p{
+  width: 100%;
+  text-align: justify;
+  display: block;
+  line-height: 1.5em;
+    letter-spacing: .09em;
+}
+h5{
+  margin: 2em 0;
+}
+
+ 
 
  
 
