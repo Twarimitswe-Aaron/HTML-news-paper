@@ -581,23 +581,105 @@ h5{
   margin: 2em 0;
 }
 
- 
 
- 
+/* Add these media queries at the end of your existing CSS */
 
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .page1 .title > h1 {
+      font-size: 7em;
+  }
+  .page1 .leftView .upper > img {
+      width: 85%;
+      height: auto;
+  }
+  .page1 .leftView .upper h1 {
+      font-size: 4.5em;
+  }
+  .page2 .rightView {
+      left: 0;
+      width: 100%;
+      text-align: center;
+  }
+  .page2 .leftView h1 {
+      font-size: 4.5em;
+  }
+}
 
+@media (max-width: 992px) {
+  .page1 .title > h1 {
+      font-size: 5em;
+  }
+  .page1 .leftView .upper > img {
+      width: 100%;
+  }
+  .page1 .leftView .upper h1 {
+      font-size: 3.5em;
+  }
+  .page1 .leftView .leftLowerPage {
+      flex-direction: column;
+      width: 100%;
+  }
+  .lowerViewFirstPage {
+      width: 100%;
+      flex-direction: column;
+  }
+  .page2Lowest {
+      flex-direction: column;
+  }
+  .page2Lowest .left, .page2Lowest .right1 {
+      width: 100%;
+      position: static;
+  }
+}
 
+@media (max-width: 768px) {
+  .page1 .title > h1 {
+      font-size: 3.5em;
+  }
+  .page1 .leftView .upper h1 {
+      font-size: 2.5em;
+  }
+  .page1 .leftView .upper p {
+      font-size: 1.2em;
+  }
+  .allNewPlays .upper {
+      flex-direction: column;
+  }
+  .allNewPlays .upper .left, .allNewPlays .upper .middle, .allNewPlays .upper .right {
+      width: 100%;
+  }
+  .allNewPlays .lower {
+      flex-direction: column;
+      align-items: center;
+  }
+  .allNewPlays .lower .leftImage img {
+      width: 100%;
+      height: auto;
+  }
+}
 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 480px) {
+  .page1 .title > h1 {
+      font-size: 2.5em;
+  }
+  .page1 .title .date p {
+      font-size: 0.8em;
+  }
+  .page1 .leftView .upper h1 {
+      font-size: 2em;
+  }
+  .page1 .leftView .upper p {
+      font-size: 1em;
+  }
+  .allNewPlays .upper .middle .tite h1 {
+      font-size: 3em;
+  }
+  .allNewPlays .upper .middle .body {
+      flex-direction: column;
+  }
+  .allNewPlays .upper .middle .body .left, .allNewPlays .upper .middle .body .right {
+      width: 100%;
+      margin-left: 0;
+  }
+}
